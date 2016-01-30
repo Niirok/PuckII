@@ -1,0 +1,415 @@
+fileFormatVersion: 2
+guid: c81ad24524dc0d349aed458b5c638d38
+timeCreated: 1454123577
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PuckV2_0
+    21300002: PuckV2_1
+    21300004: PuckV2_2
+    21300006: PuckV2_3
+    21300008: PuckV2_4
+    21300010: PuckV2_5
+    21300012: PuckV2_6
+    21300014: PuckV2_7
+    21300016: PuckV2_8
+    21300018: PuckV2_9
+    21300020: PuckV2_10
+    21300022: PuckV2_11
+    21300024: PuckV2_12
+    21300026: PuckV2_13
+    21300028: PuckV2_14
+    21300030: PuckV2_15
+    21300032: PuckV2_16
+    21300034: PuckV2_17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PuckV2_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 293
+        width: 94
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 178}
+        - {x: -33, y: 165}
+        - {x: -31, y: 159}
+        - {x: -29, y: 157}
+        - {x: -47, y: 140}
+        - {x: -47, y: 96}
+        - {x: -16, y: 0}
+        - {x: 47, y: 0}
+        - {x: 47, y: 178}
+    - name: PuckV2_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 289
+        width: 102
+        height: 169
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 94}
+        - {x: 44, y: 169}
+        - {x: -14, y: 169}
+        - {x: -34, y: 164}
+        - {x: -36, y: 154}
+        - {x: -33, y: 147}
+        - {x: -51, y: 130}
+        - {x: -51, y: 119}
+        - {x: -28, y: 104}
+        - {x: -29, y: 6}
+        - {x: -27, y: 0}
+        - {x: -4, y: 0}
+        - {x: 6, y: 36}
+        - {x: 27, y: 0}
+        - {x: 51, y: 0}
+    - name: PuckV2_3
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 289
+        width: 125
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 160}
+        - {x: -39.5, y: 157}
+        - {x: -40.5, y: 147}
+        - {x: -44.5, y: 151}
+        - {x: -58.5, y: 155}
+        - {x: -62.5, y: 153}
+        - {x: -62.5, y: 103}
+        - {x: -57.5, y: 0}
+        - {x: 60.5, y: 0}
+        - {x: 62.5, y: 2}
+        - {x: 62.5, y: 52}
+        - {x: 50.5, y: 160}
+    - name: PuckV2_4
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 289
+        width: 102
+        height: 169
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 169}
+        - {x: -4, y: 163}
+        - {x: -34, y: 164}
+        - {x: -36, y: 154}
+        - {x: -33, y: 147}
+        - {x: -51, y: 130}
+        - {x: -51, y: 119}
+        - {x: -28, y: 104}
+        - {x: -45, y: 0}
+        - {x: 51, y: 0}
+        - {x: 51, y: 99}
+        - {x: 45, y: 157}
+        - {x: 38, y: 169}
+    - name: PuckV2_5
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 293
+        width: 94
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 178}
+        - {x: -33, y: 165}
+        - {x: -31, y: 159}
+        - {x: -29, y: 157}
+        - {x: -47, y: 140}
+        - {x: -47, y: 96}
+        - {x: -16, y: 0}
+        - {x: 47, y: 0}
+        - {x: 47, y: 178}
+    - name: PuckV2_6
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 290
+        width: 94
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 168}
+        - {x: -47, y: 161}
+        - {x: -47, y: 89}
+        - {x: 5, y: 0}
+        - {x: 39, y: 0}
+        - {x: 47, y: 14}
+        - {x: 47, y: 168}
+    - name: PuckV2_8
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 289
+        width: 108
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 160}
+        - {x: 4, y: 160}
+        - {x: -31, y: 140}
+        - {x: -29, y: 125}
+        - {x: -8, y: 131}
+        - {x: -30, y: 125}
+        - {x: -31, y: 134}
+        - {x: -37, y: 155}
+        - {x: -54, y: 158}
+        - {x: -54, y: 95}
+        - {x: -18, y: 1}
+        - {x: -14, y: 0}
+        - {x: 54, y: 0}
+        - {x: 54, y: 119}
+        - {x: 52, y: 146}
+    - name: PuckV2_9
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 290
+        width: 94
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 168}
+        - {x: -47, y: 161}
+        - {x: -47, y: 89}
+        - {x: 5, y: 0}
+        - {x: 39, y: 0}
+        - {x: 47, y: 14}
+        - {x: 47, y: 168}
+    - name: PuckV2_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 70
+        width: 94
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 177}
+        - {x: -47, y: 71}
+        - {x: -10, y: 0}
+        - {x: 47, y: 0}
+        - {x: 47, y: 171}
+        - {x: 44, y: 177}
+    - name: PuckV2_11
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 64
+        width: 102
+        height: 170
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51, y: 170}
+        - {x: -51, y: 0}
+        - {x: 51, y: 0}
+        - {x: 51, y: 168}
+        - {x: 47, y: 170}
+    - name: PuckV2_12
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 64
+        width: 116
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: 160}
+        - {x: -58, y: 37}
+        - {x: -48, y: 3}
+        - {x: -44, y: 0}
+        - {x: 58, y: 0}
+        - {x: 58, y: 160}
+      - - {x: -43, y: 148}
+        - {x: -56, y: 148}
+        - {x: -58, y: 142}
+        - {x: -58, y: 122}
+        - {x: -46, y: 122}
+        - {x: -41, y: 134}
+        - {x: -41, y: 146}
+    - name: PuckV2_13
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 64
+        width: 103
+        height: 170
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 170}
+        - {x: -51.5, y: 166}
+        - {x: -51.5, y: 121}
+        - {x: -29.5, y: 99}
+        - {x: -38.5, y: 0}
+        - {x: 51.5, y: 0}
+        - {x: 51.5, y: 51}
+        - {x: 44.5, y: 170}
+    - name: PuckV2_14
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 70
+        width: 94
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 177}
+        - {x: -47, y: 87}
+        - {x: -10, y: 0}
+        - {x: 47, y: 0}
+        - {x: 47, y: 171}
+        - {x: 44, y: 177}
+    - name: PuckV2_15
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 64
+        width: 94
+        height: 170
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 152}
+        - {x: -30, y: 143}
+        - {x: -23, y: 143}
+        - {x: -47, y: 135}
+        - {x: -47, y: 84}
+        - {x: -6, y: 0}
+        - {x: 36, y: 0}
+        - {x: 47, y: 28}
+        - {x: 47, y: 170}
+        - {x: -14, y: 170}
+        - {x: -31, y: 167}
+    - name: PuckV2_16
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 64
+        width: 102
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51, y: 126}
+        - {x: -42, y: 126}
+        - {x: -40, y: 128}
+        - {x: -27, y: 128}
+        - {x: -19, y: 134}
+        - {x: -7, y: 127}
+        - {x: -31, y: 128}
+        - {x: -51, y: 122}
+        - {x: -51, y: 107}
+        - {x: -27, y: 86}
+        - {x: -20, y: 3}
+        - {x: -19, y: 0}
+        - {x: 51, y: 0}
+        - {x: 51, y: 116}
+        - {x: 45, y: 160}
+        - {x: -49, y: 160}
+        - {x: -51, y: 157}
+    - name: PuckV2_17
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 64
+        width: 94
+        height: 170
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 152}
+        - {x: -30, y: 143}
+        - {x: -23, y: 143}
+        - {x: -47, y: 135}
+        - {x: -47, y: 84}
+        - {x: -6, y: 0}
+        - {x: 36, y: 0}
+        - {x: 47, y: 28}
+        - {x: 47, y: 170}
+        - {x: -14, y: 170}
+        - {x: -31, y: 167}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
