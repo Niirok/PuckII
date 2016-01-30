@@ -18,7 +18,7 @@ public class AnimatorController : MonoBehaviour {
 	}
 
     void FlipArt(float currentSpeed) {
-        if((currentSpeed <0 && artScaleCache.x == 1) || (currentSpeed >0 && artScaleCache.x == -1)) {
+        if((currentSpeed >0 && artScaleCache.x == 1) || (currentSpeed <0 && artScaleCache.x == -1)) {
             artScaleCache.x *= -1;
             myTrans.localScale = artScaleCache;
         }
