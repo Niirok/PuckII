@@ -4,20 +4,46 @@ using System.Collections;
 [System.Serializable]
 public class PlayerController : MonoBehaviour {
 
-	public float speed;
-	public float tilt;
+    public float speed = 10, jumpVelocity = 10;
+    public LayerMask playerMask;
+    public bool canMoveInAir = true;
+    Transform myTrans, tagGround;
+    Rigidbody2D myBody;
+    bool isGrounded = false;
+    AnimatorController myAnim;
+    float hInput;
 
-	void FixedUpdate () {
-		float moveHorizontal = Input.GetAxis ("Horizontal");
-		float moveVertical = Input.GetAxis ("Vertical");
+    void Start()
+    {
+        myBody = this.GetComponent<Rigidbody2D>();
+        myTrans = this.transform;
+        tagGround = GameObject.Find(this.name + "/tag_ground").transform;
+        myAnim = AnimatorController.instance;
+    }
 
-		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
-		GetComponent<Rigidbody>().velocity = movement * speed;
+    void FixedUpdate()
+    {
+        isGrounded = Physics2D.Linecast(myTrans.position, tagGround.position, playerMask);
+        myAnim.UpdateIsGround(isGrounded);
 
-        GetComponent<Rigidbody>().position = new Vector3(
-            Mathf.Clamp(GetComponent<Rigidbody>().position.x, -10, 10),
-            0.0f,
-            0.0f
-		);
-	}
+        //isGrounded = true;
+        hInput = Input.GetAxisRaw("Horizontal");
+        
+        myAnim.UpdateSpeed(hInput);
+        if (Input.GetButtonDown("Jump")) Jump();
+        Move(hInput);
+    }
+
+    public void Move(float horizontalInput)
+    {
+        if (!canMoveInAir && !isGrounded ) return;
+        Vector2 moveVel = myBody.velocity;
+        moveVel.x = horizontalInput * speed;
+        myBody.velocity = moveVel;
+    }
+
+    public void Jump()
+    {
+        if (isGrounded) myBody.velocity += jumpVelocity * Vector2.up;
+    }
 }
