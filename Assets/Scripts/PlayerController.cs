@@ -12,10 +12,10 @@ public class PlayerController : MonoBehaviour {
 		float moveVertical = Input.GetAxis ("Vertical");
 
 		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
-		GetComponent<Rigidbody>().velocity = movement * speed;
+		GetComponent<Rigidbody2D>().velocity = movement * speed;
 
-        GetComponent<Rigidbody>().position = new Vector3(
-            Mathf.Clamp(GetComponent<Rigidbody>().position.x, -10, 10),
+        GetComponent<Rigidbody2D>().position = new Vector3(
+            Mathf.Clamp(GetComponent<Rigidbody2D>().position.x, -10, 10),
             0.0f,
             0.0f
 		);
