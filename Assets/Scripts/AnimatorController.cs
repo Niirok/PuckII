@@ -33,6 +33,10 @@ public class AnimatorController : MonoBehaviour {
         myAnim.SetBool("isGrounded", isGrounded);
     }
 
+	public bool GetBool(string str) {
+		return myAnim.GetBool(str);
+	}
+
 	void Update () {
 	
 	}
